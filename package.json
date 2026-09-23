@@ -20,12 +20,17 @@
     "operator": "node --import tsx scripts/operator-server.ts",
     "operator:eksport": "node --import tsx scripts/operator-export.ts",
     "odbior": "node --import tsx scripts/odbior-final.ts",
-    "operator:sql": "node --import tsx scripts/operator-sql.ts"
+    "operator:sql": "node --import tsx scripts/operator-sql.ts",
+    "mcp:szukaj-plikow": "node --import tsx scripts/mcp-file-search-server.ts"
   },
   "devDependencies": {
     "@types/node": "^24.9.2",
-    "typescript": "^7.0.2",
     "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
     "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
   }
 }

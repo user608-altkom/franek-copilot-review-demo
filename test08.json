@@ -1,0 +1,30 @@
+[
+  {
+    "nazwa": "Bez wniosku",
+    "limitEfektywnyGrosze": 10000,
+    "przekroczenieGrosze": 2000,
+    "zrodlo": "bazowy",
+    "wniosekId": null
+  },
+  {
+    "nazwa": "Zgoda aktywna",
+    "limitEfektywnyGrosze": 15000,
+    "przekroczenieGrosze": 0,
+    "zrodlo": "czasowy",
+    "wniosekId": "W-001"
+  },
+  {
+    "nazwa": "Dokladnie koniec zgody",
+    "limitEfektywnyGrosze": 10000,
+    "przekroczenieGrosze": 2000,
+    "zrodlo": "bazowy",
+    "wniosekId": null
+  },
+  {
+    "nazwa": "Zgoda cofnieta",
+    "limitEfektywnyGrosze": 10000,
+    "przekroczenieGrosze": 2000,
+    "zrodlo": "bazowy",
+    "wniosekId": null
+  }
+]
